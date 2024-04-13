@@ -46,8 +46,8 @@ $directus_cache = true; // The default API calls will be cached locally, if true
 $random_cache_code = ''; // Consider changing this code to any alpha-numeric phrase, to make it harder for others to trigger the resource hungry cache & rebuild process. You will need to add this as purge_rebuild_code query param to the cache URL, e.g. YOURDOMAIN.com/purge/directus_cache?purge_rebuild_code=7347373467.
 
 // Base URL of your microsite.
-$the_page_url = 'https://YOURDOMAIN.com/';
-// $the_page_url = '/'; // (use this for localhost dev/tests via Docker)
+// $the_page_url = 'https://YOURDOMAIN.com/';
+$the_page_url = '/'; // (use this for localhost dev/tests via Docker)
 
 // PWA settings.
 $the_webapp_name = 'Put the name for the webapp here'; // Mind manifest.json too.
